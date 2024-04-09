@@ -1,0 +1,498 @@
+{
+    "microwaveEngineering":
+    {
+        "1" :
+        [
+            {
+                "term" : "1-dB compression point",
+                "definition" : "the point at which the linear output power and the output power of the amplifier or nonlinear device differ by 1 dB; indicates the power level that causes the gain to drop by 1 dB from its small signal value"
+            }
+        ],
+        "a" :
+        [
+            {
+                "term" : "attenuation",
+                "definition" : "refers to the gradual losses experienced by a signal through a medium"
+            },
+            {
+                "term" : "approaching motion",
+                "definition" : "when the transmitter is moving towards the receiver, the frequency of the received signal will be higher than the transmitted frequency. This is because the receiver encounters more wave crests per unit time as the distance between the transmitter and the receiver decreases"
+            },
+            {
+                "term" : "adaptive equalization",
+                "definition" : "equalization algorithms that dynamically adjust the equalizer parameters based on the changing channel conditions. These algorithms continuously estimate the channel response and update the equalizer to adapt to time-varying channel characteristics"
+            },
+            {
+                "term" : "antenna gain",
+                "definition" : "a measure of how effectively an antenna concentrates radiated or received power in a particular direction, which is quantified by the increase in power density in a specific direction compared to an isotropic radiator. Antenna gain combines antenna efficiency and directivity and mathematically defined as the product of directivity (D) and efficiency (n). Gain is measured in units of decibels (dB)"
+            }
+        ],
+        "b" :
+        [
+            {
+                "term" : "bandwidth",
+                "definition" : "the range of frequencies, or information, that a circuit can handle or the range of frequencies that a signal contains or occupies"
+            },
+            {
+                "term" : "beamforming",
+                "definition" : "refers to a signal processing technique used to focus the transmitted or received electromagnetic waves in a specific direction, forming a narrow beam. It involves adjusting the phase and amplitude of the signals from multiple antenna elements to create constructive interference in the desired direction while minimizing interference in other directions. Beamforming can be employed in both transmit and receive modes. In contrast to beam steering, this is a signal processing technique used to shape and optimize the directionality of the transmitted or received signal(s) to achieve increased signal strength, improved coverage, interference mitigation, and adaptibility to changing conditions"
+            },
+            {
+                "term" : "beam steering",
+                "definition" : "refers to the ability to dynamically adjust the direction or coverage area of a transmitted or received beam of electromagnetic waves. It involves controlling the phase and amplitude of the signals from multiple antenna elements to steer the beam towards a specific target or region of interest. Can be accomplished through the use of phased array antennas or electronically steerable antenna arrays. In contrast to beamforming, this process focuses on dynamically adjusting the direction or coverage area of the beam, but does leverage the signal processing capabilities in conjunction to achieve increased signal strength, improved coverage, interference mitigation, and adaptibility to changing conditions"
+            },
+            {
+                "term" : "bipolar transistor",
+                "definition" : "a semiconductor device consisting of three areas of either P-type or N-type such that an area of one type is sandwiched between areas of the other (i.e., NPN, PNP). The transistor fundamentally amplifies current but it can be connected in circuits designed to amplify voltage or power"
+            }
+        ],
+        "c" :
+        [
+            {
+                "term" : "coupler",
+                "definition" : "a passive, reciprocal component which takes a single input power and distributes the output power to multiple outputs to enable connections between (couple) systems for Rx or Tx; functions similar to a power divider but used specifically to couple systems together"
+            },
+            {
+                "term" : "cross talk",
+                "definition" : "signal interference caused by the electric or magnetic fields of one telecommunication signal affecting a signal in an adjacent circuit"
+            },
+            {
+                "term" : "characteristic impedance",
+                "definition" : "a transmission line parameter used to define a constant impedance over the entire length of the transmission line"
+            },
+            {
+                "term" : "channel estimation",
+                "definition" : "refers to the process of estimating the characteristics and parameters of the communication channel between the transmitter and the receiver. It involves determining the channel's impulse response, frequency response, or other relevant parameters that describe how the transmitted signal propagates through the wireless medium and arrives at the receiver"
+            },
+            {
+                "term" : "code division multiple acess",
+                "definition" : "a digital cellular communication method that allows multiple users to share the same frequency band simultaneously. In CDMA, each user's data signal is multiplied by a unique code, known as a spreading code or sequence, which serves as a unique identifier for that user. These spreading codes have the property of being orthogonal to each other, meaning they do not interfere with each other when combined"
+            },
+            {
+                "term" : "carrier wave",
+                "definition" : "refers to a continuous electromagnetic waveform that is modulated with the information-bearing signal to facilitate the transmission of data over the air. The carrier wave acts as a carrier or medium for transporting the modulated signal from the transmitter to the receiver"
+            }
+        ],
+        "d" :
+        [
+            {
+                "term" : "directional coupler",
+                "definition" : "a passive, reciprocal 4-port component used for sampling incident and reflected microwave power or connecting separate systems consisting of an input port (1), output port (2), coupled port (3), and isolated port (4)"
+            },
+            {
+                "term" : "doppler shift",
+                "definition" : "refers to the change in frequency observed in a signal due to the relative motion between the transmitter and the receiver. When there is relative motion between the transmitter and the receiver, such as in mobile communications or satellite communications, the transmitted signal experiences a frequency shift at the receiver. This frequency shift is caused by the compression or expansion of the transmitted waveform as it moves towards or away from the receiver due to the motion-induced change in the propagation distance. The magnitude of the Doppler shift depends on the relative velocity between the transmitter and the receiver, the frequency of the transmitted signal, and the speed of light. The Doppler shift is proportional to the relative velocity and the transmitted frequency and inversely proportional to the speed of light. Doppler shift can be further described by approaching and receding motion, and mitigation of this effect is accomplished through doppler estimation and compensation"
+            },
+            {
+                "term" : "doppler estimation",
+                "definition" : "the receiver estimates the Doppler frequency shift by analyzing pilot (reference) signals or known symbols in the received signal. This estimation allows for proper compensation and correction in signal processing algorithms"
+            },
+            {
+                "term" : "doppler compensation",
+                "definition" : "the receiver applies appropriate frequency correction techniques to compensate for the Doppler shift. This correction helps maintain accurate demodulation, decoding, and synchronization"
+            },
+            {
+                "term" : "decision feedback equalization",
+                "definition" : "a nonlinear equalization technique that uses a feedback mechanism to mitigate ISI. It uses previously detected symbols to cancel interference and improve the accuracy of symbol detection"
+            },
+            {
+                "term" : "directivity",
+                "definition" : "represents the ability of an antenna to concentrate radiated or received power in a particular direction, and quantifies the ability of the antenna to radiate or receive power more intensely in certain directions while attenuating it in others. It characterizes the focused nature of the radiation pattern and is purely a geometric property of the antenna. Directivity does not account for any losses or inefficiencies associated with the antenna. Directivity is measured in units of decibels (dB)"
+            },
+            {
+                "term" : "dielectric",
+                "definition" : "a non-metallic, non-conducting substance having a high specific resistance, a negative temperature coefficient of resistance, and a high insulating resistance which prevent the flow of current"
+            },
+            {
+                "term" : "dynamic range",
+                "definition" : "the ratio of the largest measurable signal to the smallest measurable signal"
+            },
+            {
+                "term" : "deterministic",
+                "definition" : "the output signal is predictable baseed upon the input signal"
+            },
+            {
+                "term" : "dispersion",
+                "definition" : "the separation of frequencies such that some frequencies travel faster than others due to losses on a line causing signal distortion"
+            }
+        ],
+        "e" :
+        [
+            {
+                "term" : "external interference",
+                "definition" : "interference originating from sources outside the communication system. It can include signals from other wireless devices, neighboring communication systems, or unintentional radiators such as electronic equipment, power lines, or atmospheric phenomena. External interference can occur in the same frequency band as the desired signal or in adjacent frequency bands"
+            },
+            {
+                "term" : "equalization",
+                "definition" : "refers to the process of compensating for the distortions and impairments introduced by the wireless channel. It is a signal processing technique used at the receiver to recover the original transmitted signal by mitigating the effects of channel fading, multipath propagation, interference, and other channel distortions. The wireless channel can introduce various types of impairments that affect the transmitted signal, such as amplitude variations, phase shifts, frequency-selective fading, and intersymbol interference (ISI)"
+            },
+            {
+                "term" : "electromagnetic wave",
+                "definition" : "a wave consisting of both electric and magnetic fields orthogonal to one another and the direction of propagation carrying momentum and electromagnetic radiant energy"
+            }
+        ],
+        "f" :
+        [
+            {
+                "term" : "fading",
+                "definition" : "refers to the rapid variation of signal strength or amplitude over short time intervals or small spatial scales. It occurs due to phenomena such as multipath propagation, where signals take multiple paths and interfere constructively or destructively at the receiver. Wireless channel models include fading models, such as Rayleigh fading or Ricean fading, to characterize the statistical properties of fading channels"
+            },
+            {
+                "term" : "frequency domain equalization",
+                "definition" : "equalization is used in systems with frequency-selective fading. It operates in the frequency domain and applies equalization techniques, such as inverse fast Fourier transform (IFFT) or zero-padding, to compensate for the frequency-dependent channel effects"
+            },
+            {
+                "term" : "frequency division multiple access",
+                "definition" : "the available frequency spectrum is divided into separate frequency bands, and each user is assigned a unique frequency band for communication. Each user occupies a specific frequency band, and multiple users can transmit simultaneously as long as they are allocated different frequency bands"
+            },
+            {
+                "term" : "frequency division multiplexing",
+                "definition" : "involves dividing the available frequency spectrum into separate frequency bands. Each user or signal is allocated a unique frequency band for transmission, and multiple users can transmit simultaneously as long as they are assigned different frequency bands"
+            }
+        ],
+        "g" :
+        [
+            {
+                "term" : "group velocity",
+                "definition" : "the velocity of the envelope of a wave; waveforms containing multiple frequencies where the velocities of the wave are dependent upon the specific frequency, thus phase and group velocity are different; whereas, a wave containing a singular frequency will have a phase velocity equal to the group velocity"
+            }
+        ],
+        "h" :
+        [
+            {
+                "term" : "hybrid (3-dB) coupler",
+                "definition" : "a passive 4-port component also known as a 3 dB or 90 degree coupler used for power division and combination used to divide an input signal equally into two outputs while maintaining a precise phase relationship conssiting of an input port (1), 0 degree output port (2), 90 degree output port (3), and isolated port (4)"
+            },
+            {
+                "term" : "half-power (3-dB) bandwidth",
+                "definition" : "the bandwidth of frequencies where a peak value at a defined center frequency is attenuated by 3-dB or 0.707 of the signals peak value"
+            },
+            {
+                "term" : "half-power (3-dB) beamwidth",
+                "definition" : "the angle off boresight which intersects with the half-power (3-dB) bandwidth"
+            },
+            {
+                "term" : "heterodyne",
+                "definition" : "refers to a general class of systems where two input frequencies are combined or mixed to produce a set of output frequencies. In a heterodyne system, the frequencies being mixed can be any two signals, regardless of their specific purpose or application. The term 'heterodyne' simply describes the process of frequency mixing"
+            },
+            {
+                "term" : "harmonic distortion",
+                "definition" : "the ratio of harmonics to fundamental when a (theoretically) pure sine wave is reconstructed"
+            }
+        ],
+        "i" :
+        [
+            {
+                "term" : "isolation",
+                "definition" : "the magnitude of a signal that gets coupled across an open circuit used to prevent a signal from appearing at a node in the circuit where it is unwanted; optimal isolation levels is -65 dB, and acceptable isolation levels is -20 dB"
+            },
+            {
+                "term" : "input port reflection",
+                "definition" : "the ratio of the amplitude of the reflected wave to the incident wave; the incident wave propgates from the input to the output, and the reflected wave is the magnitude of the wave which is reflected from the output port back to the input port causing destructive signal interference"
+            },
+            {
+                "term" : "insertion loss",
+                "definition" : "the ratio of the amplitude of the input power and the transmitted power; a measure of less with respect to the output power relative to the amount of input power"
+            },
+            {
+                "term" : "interference",
+                "definition" : "refers to unwanted signals that are generated by other devices or communication systems operating in the same frequency band. Interference can be caused by neighboring wireless networks, electronic devices, power lines, or atmospheric conditions. Interference can corrupt the desired signal, making it difficult to distinguish and recover the information"
+            },
+            {
+                "term" : "internal interference",
+                "definition" : "also known as self-interference, occurs within the communication system itself. It can arise due to imperfections in the transmitter, receiver, or other components of the system. Examples of internal interference include inter-symbol interference (ISI) caused by multipath propagation, adjacent channel interference, or co-channel interference in systems with multiple users sharing the same frequency band"
+            },
+            {
+                "term" : "impulse noise",
+                "definition" : "also known as burst noise, is characterized by sudden and short-duration variations in the received signal. It can be caused by external sources such as lightning, power line disturbances, or electrical equipment. Impulse noise can introduce errors in the received signal and affect the reliability of the communication link"
+            },
+            {
+                "term" : "intersymbol interference",
+                "definition" : "occurs when the transmitted symbols spread in time and overlap with adjacent symbols due to the dispersive nature of the channel"
+            },
+            {
+                "term" : "intermediate frequency",
+                "definition" : "refers to an intermediate frequency signal that is generated during the process of demodulating a received signal. The intermediate frequency is an intermediate step between the carrier frequency (at which the signal is received) and the baseband frequency (where the original information signal is recovered). It is the same process, but in reverse for transmitted signals"
+            },
+            {
+                "term" : "intermodulation distortion",
+                "definition" : "results when two signals mix in non-linear circuits or devices, new frequency components are created that are not in the original signal"
+            }
+        ],
+        "j" :
+        [
+            {
+                "term" : "jitter",
+                "definition" : "a measure of the variations of signal period greater than 10 MHz in the time domain describing the amount of deviation of the signal period from its ideal value"
+            }
+        ],
+        "k" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ],
+        "l" :
+        [
+            {
+                "term" : "linear equalization",
+                "definition" : "methods such as zero-forcing equalization and minimum mean square error (MMSE) equalization, aim to invert the effects of the channel by applying a linear filter. These methods estimate the channel response and use it to design an equalizer that compensates for the channel distortions"
+            },
+            {
+                "term" : "link budget",
+                "definition" : "refers to the calculation and analysis of the power gains and losses throughout a communication link. It quantifies the overall performance and feasibility of a wireless link by considering various factors that affect signal propagation, including transmission power, path loss, antenna gains, cable losses, and system noise to ensure the transmitted signal has sufficient power at the receiver to achieve reliable communication. Some of the common considerations of a link budget include: transmitter power, path loss, antenna gain, cable losses, connector losses, receiver sensitivity, system noise, et al"
+            },
+            {
+                "term" : "linear",
+                "definition" : "the output signal level is directly proportional to the input signal level"
+            },
+            {
+                "term" : "longitudinal wave",
+                "definition" : "a wave in which particles of the midum move in the direction parallel to the direction of propagation"
+            }
+        ],
+        "m" :
+        [
+            {
+                "term" : "multipath effects",
+                "definition" : "occurs when signals reflect, refract, or diffract off objects or structures in the environment, leading to multiple copies of the signal arriving at the receiver with different delays, amplitudes, and phases. Wireless channel models incorporate multipath effects by considering parameters like delay spread, Doppler spread, and the number and strength of multipath components"
+            },
+            {
+                "term" : "multipath fading",
+                "definition" : "occurs when the transmitted signal reaches the receiver through multiple paths due to reflections, diffraction, and scattering. The superposition of these multiple paths can result in constructive or destructive interference, leading to variations in the received signal strength and causing fading"
+            },
+            {
+                "term" : "multi-antenna systems",
+                "definition" : "also known as a multiple-input multiple-output (MIMO) system, utilizes multiple antennas at both the transmitter and receiver. It is designed to take advantage of the spatial dimension of the wireless channel to improve system performance in terms of capacity, reliability, and link quality. In a multi-antenna system, multiple antennas are used at the transmitter and receiver to enable spatial diversity and multiplexing"
+            },
+            {
+                "term" : "multiple access",
+                "definition" : "refers to the technique or method used to allow multiple users to share the same communication resources simultaneously over a wireless channel. It enables multiple users to access the channel and transmit their data or voice signals concurrently, thereby maximizing the utilization of the available bandwidth"
+            },
+            {
+                "term" : "multiplexing",
+                "definition" : "refers to the technique or method used to combine multiple independent data streams or signals into a single transmission channel enabling the simultaneous transmission of multiple signals over the same communication medium, allowing efficient utilization of the available bandwidth and resources. The primary objective of multiplexing is to share the communication channel among multiple users or data streams, ensuring that each user or signal can transmit and receive their information without significant interference or degradation in performance. By multiplexing multiple signals together, the overall capacity of the system can be increased, allowing for more efficient use of the available resources"
+            }
+        ],
+        "n" :
+        [
+            {
+                "term" : "noise",
+                "definition" : "refers to unwanted and random variations or disturbances that are superimposed on the desired signal during transmission and reception. It is an essential consideration as it can degrade the quality of the received signal, increase the error rates, and limit the overall system performance. Noise is typically quantified in terms of its power spectral density or signal-to-noise ratio"
+            },
+            {
+                "term" : "noise factor",
+                "definition" : "the ratio of the SNR at its input to the ratio of the SNR at its output"
+            },
+            {
+                "term" : "noise figure",
+                "definition" : "a measure of how much a device degrades the signal-to-noise ratio defined mathematically as 10*log10(noise factor)"
+            },
+            {
+                "term" : "noise temperature",
+                "definition" : "the amount of thermal noise or random fluctuations in an electronic device or system expressed in units of temperature (usually in Kelvin), even though it does not refer to the actual temperature of the device. Instead, it characterizes the noise power the device generates as if it were at a specific temperature"
+            },
+            {
+                "term" : "noise floor",
+                "definition" : "the level of unwanted background noise present in a signal when no significant signal is present"
+            },
+            {
+                "term" : "noise-equivalent temperature",
+                "definition" : "a measure of the sensitivity of a detector of thermal radiation in the infrared, terahertz or microwave portions of the electromagnetic spectrum. It is the amount of incident signal temperature that would be needed to match the internal noise of the detector such that the signal-to-noise ratio is equal to one"
+            },
+            {
+                "term" : "noise power",
+                "definition" : "the measured total noise in a given bandwidth at the input or output of a device when no significant signal of interest is present"
+            }
+        ],
+        "o" :
+        [
+            {
+                "term" : "orthogonal frequency division multiple access",
+                "definition" : "combines the concepts of frequency division multiplexing and orthogonal frequency division multiplexing. The available frequency spectrum is divided into multiple orthogonal subcarriers, and each subcarrier can be allocated to different users. Users can transmit simultaneously by utilizing different subcarriers, allowing for efficient utilization of the frequency spectrum"
+            },
+            {
+                "term" : "orthogonal frequency division multiplexing",
+                "definition" : "a digital modulation technique widely used in wireless communication systems to transmit data over multiple subcarriers. It divides the available frequency spectrum into a large number of orthogonal subcarriers, each carrying a portion of the data to be transmitted. OFDM is known for its ability to mitigate the effects of multipath fading and achieve high data rates efficiently"
+            },
+            {
+                "term" : "orthomode transducers",
+                "definition" : "used to separate a signal applied to the circular waveguide input port into its two linear orthogonal components at the rectangular waveguide output ports with greater than 30 dB isolation between the polarizations. In reverse, two orthogonal linearly polarized signals combine, producing an output in the circular waveguide port. The resulting polarization may be linear, circular, or elliptical depending on the relative phase and amplitude of the two orthogonal input signals"
+            }
+        ],
+        "p" :
+        [
+            {
+                "term" : "power divider",
+                "definition" : "a passive N-port device which takes a single input power and distributes the output power to multiple outputs by carefully controlling the impedance of each path; in an ideal component the input signal is evenly divided among all outputs with no loss of power"
+            },
+            {
+                "term" : "path loss",
+                "definition" : "refers to the attenuation of signal strength as it propagates through space. Wireless channel models incorporate path loss formulas that describe the decrease in signal power with increasing distance from the transmitter. These models consider factors such as free-space path loss, shadowing (due to obstacles or buildings), and other environment-specific effects"
+            },
+            {
+                "term" : "propagation delay",
+                "definition" : "refers to the time it takes for a signal to travel from a transmitter to a receiver through the wireless medium caused by the physical propagation of electromagnetic waves through the transmission medium, such as air or free space"
+            },
+            {
+                "term" : "phase noise",
+                "definition" : "the frequency-domain representation of random fluctuations in the phase of a waveform, corresponding to time-domain instabilities which reduces signal quality and increases error rates in communication links"
+            },
+            {
+                "term" : "plasma noise",
+                "definition" : "random motion of charges in an ionized gas, such as a plasma, the ionosphere, or sparking electrical contacts"
+            },
+            {
+                "term" : "phase velocity",
+                "definition" : "the rate at which the phase of any one frequency component of a wave propgates through a medium; the velocity of the phase front; the velocity of a single peak or trough of a wave; frequency dependent (i.e., dispersive) IFF the line is lossy"
+            }
+        ],
+        "q" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ],
+        "r" :
+        [
+            {
+                "term" : "return loss",
+                "definition" : "a measure of how close the actual input/output impedance of the network is to the nominal system impedane value; the relationship between both the reflection coefficient (gamma) and the standing wave ratio (SWR)"
+            },
+            {
+                "term" : "rain attenuation",
+                "definition" : "refers to the degredation of the wireless signals due to absorbtion and scattering of the radio waves, causing additional signal attenuation. The effect of rain attenuation depends on the frequency band used for communication and the intensity of rainfall. Rain attenuation is particularly significant in higher frequency bands such as Ka-band"
+            },
+            {
+                "term" : "receding motion",
+                "definition" : "if the transmitter is moving away from the receiver, the frequency of the received signal will be lower than the transmitted frequency. This is because the receiver encounters fewer wave crests per unit time as the distance between the transmitter and the receiver increases"
+            },
+            {
+                "term" : "receive beamforming",
+                "definition" : "the process of employing multiple antennas at the receiver are used to selectively combine the signals received from different directions. By adjusting the weights of the received signals based on their phases and amplitudes, the receiver can enhance the signal power from the desired direction while suppressing interference and noise from other directions"
+            }
+        ],
+        "s" :
+        [
+            {
+                "term" : "splitter",
+                "definition" : "a passive, non-directional, typically 3-port device and functions similar to a power divider but unlike a power divider requires internal resistors (i.e., Wilkinson) and has no isolated port"
+            },
+            {
+                "term" : "scattering parameters (S-Parameters)",
+                "definition" : "describes the input-output relationships between ports in an electrical system as a function of wave amplitude and phase versus frequency in high-frequency applications rather than voltages or currents"
+            },
+            {
+                "term" : "saturation",
+                "definition" : "the point at which an amplifier can no longer increase the output signal level; the maximum output power you can get from an amplifier"
+            },
+            {
+                "term" : "signal-to-noise ratio",
+                "definition" : "a measure of the strength or quality of the desired signal relative to the level of background noise or interference present in the received signal. It quantifies the ratio of the power or amplitude of the signal of interest to the power or amplitude of the noise in the communication system. Mathematically, the signal-to-noise ratio (SNR) is expressed in decibels (dB) and can be defined as: SNR(dB) = 10*log10(Signal Power/Noise Power), where Signal Power represents the power of the desired signal and Noise Power represents the power of the background noise or interference"
+            },
+            {
+                "term" : "spatial division multiple acess",
+                "definition" : "takes advantage of the spatial dimension by using multiple antennas to differentiate and serve multiple users simultaneously. By employing beamforming or spatial multiplexing techniques, each user is assigned a specific spatial direction or channel for communication"
+            },
+            {
+                "term" : "superheterodyne",
+                "definition" : "a specific type of heterodyne system used in radio receivers. In a superheterodyne receiver, the incoming radio frequency (RF) signal is mixed with a local oscillator signal to generate an intermediate frequency (IF) signal. This intermediate frequency is then processed and demodulated to extract the original information. The distinction between of a superheterodyne system is that is specifically refers to the architecture used in radio receivers for frequency conversion and demodulation"
+            },
+            {
+                "term" : "slotted line",
+                "definition" : "a transmission line configuration (usually a waveguide or coaxial line) that allows the sampling of the electric field amplitude of a standing wave on a terminated line"
+            },
+            {
+                "term" : "surface wave",
+                "definition" : "a wave in which particles of the medium undergo a circular motion"
+            }
+        ],
+        "t" :
+        [
+            {
+                "term" : "third-order intercept point (IP3)",
+                "definition" : "a hypothetical point where the power of third order components will reach the same level as the fundamental power; used extensively to characterize the performance of an amplifier such that lower frequency values of IP3 represent lesser performance; whereas, higher frequency values of IP3 represent greater performance"
+            },
+            {
+                "term" : "thermal noise",
+                "definition" : "random fluctuation in voltage caused by the random motion of charge carriers in any conducting medium at a temperature above absolute zero (i.e., K = 0)"
+            },
+            {
+                "term" : "transmit beamforming",
+                "definition" : "the process of employing multiple antennas at the transmitter are used to shape and steer the transmitted signal towards the intended receiver or a specific region in space. By adjusting the phase and amplitude of the signals transmitted from each antenna, constructive interference is achieved in the desired direction, resulting in a stronger signal at the receiver"
+            },
+            {
+                "term" : "time division multiple access",
+                "definition" : "the available time is divided into fixed time slots, and each user is allocated one or more time slots for communication. Users take turns transmitting their data within their assigned time slots, and multiple users share the same frequency channel by using different time slots"
+            },
+            {
+                "term" : "time division multiplexing",
+                "definition" : "the available time is divided into discrete time slots, and each user or signal is allocated a specific time slot for transmission. Users take turns transmitting their data within their assigned time slots, and multiple users share the same frequency channel"
+            },
+            {
+                "term" : "transition frequency",
+                "definition" : "the frequency at which the current gain drops to unity, and in order to achieve a gain of 10 at 125 MHz, a BJT with a transition frequency of 1.25 GHz is needed"
+            },
+            {
+                "term" : "transverse wave",
+                "definition" : "a wave in which particles of the medium move in a direction perpendicular to the direction of propagation"
+            },
+            {
+                "term" : "transverse electric wave",
+                "definition" : "a wave characterized by the electric field being transverse to the direction of propagation; these are referred to as H waves because there is no electric field present in the direction of propagation"
+            },
+            {
+                "term" : "transverse magnetic wave",
+                "definition" : "a wave characterized by the magnetic field being transverse to the direction of propagation; these are referred to as E waves because there is magnetic field present in the direction of propagation"
+            }
+        ],
+        "u" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ],
+        "v" :
+        [
+            {
+                "term" : "voltage standing wave ratio (VSWR)",
+                "definition" : "the ratio of reflected-to-transmitted waves; more commonly referred to as simply standing wave ratio (SWR)"
+            }
+        ],
+        "w" :
+        [
+            {
+                "term" : "white noise",
+                "definition" : "noise which has equal power across all frequencies of the system bandwidth"
+            },
+            {
+                "term" : "wavelength",
+                "definition" : "the distance between two successive maxima or minima of a wave at a fixed instant in time"
+            }
+        ],
+        "x" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ],
+        "y" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ],
+        "z" :
+        [
+            {
+                "term" : "the term",
+                "definition" : "the definition"
+            }
+        ]
+    }
+}
